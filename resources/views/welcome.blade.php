@@ -43,7 +43,7 @@
                 </div>
             @endif
 
-            <img src="https://mail.google.com/mail/u/0?ui=2&ik=bffe9eb28f&attid=0.0.1&permmsgid=msg-f:1751134901723333995&th=184d47ea4b02056b&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9SYWS1N5frhSureowgdUdszIwk5JVCaFfnJB6E5cio4oCMNdYgJSLtaZf9qeMhGNX2XsU5n62ZBsBCXG9wUxdcEID8LpDKVhL-62gdUOqSn05BktA-sTBJfnw&disp=emb"/>
+            <img src="https://media-exp1.licdn.com/dms/image/C560BAQF2cKQ2W-bo2w/company-logo_200_200/0/1654524349417?e=1678320000&v=beta&t=mUGVLQJBJqBPGmS2-aErdQh4Iv8Bw6s2l8dtIU8w_PM"/>
 
               
 
