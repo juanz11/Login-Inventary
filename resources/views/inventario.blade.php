@@ -1,7 +1,7 @@
 <meta charset="utf-8">
      <style>
      table.improviso
-     { width: 25%;text-align: left;vertical-align: top;border: 1px solid #000;border-collapse: collapse;}
+     { text-align: left;vertical-align: top;border: 1px solid #000;border-collapse: collapse;}
      </style>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -78,10 +78,7 @@
                                  <td>{{$value->id }}</td>
                                  <td>{{$value->name }}</td>
                                  <td>{{$value->role}}</td>  
-                                 <td> <a href="{{route('destroy.user_delete', $value->id)}}"
-                                        class="btn text-white mx-auto btn " style="color: red;"> Borrar
-                                    </a>
-                                </td>
+                                
                                  </tr>   
 
                           @endforeach
