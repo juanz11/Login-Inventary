@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\products;
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 class ProductsController extends Controller
 {
