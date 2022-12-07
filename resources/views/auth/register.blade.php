@@ -2,7 +2,7 @@
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                <x-application-logo class="w-20 h-20 fill-current text-gray-500" style="width: 14%;"/>
             </a>
         </x-slot>
 
@@ -22,6 +22,15 @@
                 <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
                 <x-input-error :messages="$errors->get('email')" class="mt-2" />
             </div>
+                <!-- Role  -->
+           
+                             <div class="mt-4">
+                                <label for="role" class="form-label">Role</label>
+                             <select name="role" id="role" select>
+                              <option value="Administrador">Administrador</option>
+                              <option value="Almacén">Almacén</option>
+                             </select>
+                            </div>
 
             <!-- Password -->
             <div class="mt-4">
